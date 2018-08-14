@@ -17,6 +17,8 @@ app.post('/so',  (req, res)  => {
     console.log(req.body);
     const name = 'SO';
     const message = 'こんにちは' + name;
+
+    res.header('Content-Type', 'text/html;charset=utf-8');
     res.send(message);
 });
 

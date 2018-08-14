@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+.item1{
+    background-color: aqua;
+    width: 30%;
+}
+
+.item2{
+    background-color: red;
+    width: 70%;
+}
