@@ -15,7 +15,9 @@ app.get('/login',  (req, res)  => res.sendFile(__dirname+'/public/login.html'));
 app.post('/so',  (req, res)  => {
     console.log(req);
     console.log(req.body);
-    res.send('こんにちはSOさん');
+    const name = 'SO';
+    const message = 'こんにちは' + name;
+    res.send(message);
 });
 
 app.listen(PORT);
