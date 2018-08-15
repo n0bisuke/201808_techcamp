@@ -16,11 +16,11 @@ app.get('/kuku',  (req, res)  => {
     let mes = '';
     for (let i = 1; i < 10; i++) {
         for (let x = 1; x < 10; x++) {
-            mes += i * x;
-            mes += ' ';
+            mes += (i * x) + ' ';
         }
         mes += '<br>';
     }
+    
     res.send(mes);
 });
 
