@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/n0bisuke/201808_techcamp/issues"
   },
-  "homepage": "https://github.com/n0bisuke/201808_techcamp#readme"
+  "homepage": "https://github.com/n0bisuke/201808_techcamp#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
 }
